@@ -125,12 +125,14 @@ pip install pandas numpy networkx openpyxl
 
 ### 范围一致性（Scope Conformity）
 - **定义**: 衡量企业在CSR议题覆盖范围上与行业标准的符合程度
-- **计算公式**: $\text{Scope Conformity}_{it} = \sum_{k=1}^9 \text{CSR}_{ikt} \cdot \text{CEN}_{k, t-1}$
+- **计算公式**:
+- $\text{Scope Conformity}_{it} = \sum_{k=1}^9 \text{CSR}_{ikt} \cdot \text{CEN}_{k, t-1}$
 - **取值范围**: [0, 1]，值越大表示范围一致性越高
 
 ### 重点差异化（Emphasis Differentiation）
 - **定义**: 衡量企业在CSR议题重点分配上与行业平均水平的差异程度
-- **计算公式**: $\text{Emphasis Differentiation}_{it} = \sum_{k=1}^K \left( |\text{FE}_{ikt} - \text{AE}_{jkt}| \cdot \mathbf{\text{CEN}_{k, t-1}} \right)$
+- **计算公式**:
+- $\text{Emphasis Differentiation}_{it} = \sum_{k=1}^K \left( |\text{FE}_{ikt} - \text{AE}_{jkt}| \cdot \mathbf{\text{CEN}_{k, t-1}} \right)$
 - **取值范围**: [0, +∞)，值越大表示差异化程度越高
 
 ### 标准化指标
@@ -160,6 +162,7 @@ pip install pandas numpy networkx openpyxl
 ## 📝 参考文献
 
 本项目基于学术研究论文的方法论实现，具体参考文献请参见 `参考文献/` 目录。
+
 
 
 
