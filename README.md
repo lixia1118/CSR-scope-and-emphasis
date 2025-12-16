@@ -4,7 +4,7 @@
 
 本项目的参考文献如下：
 
-![](参考文献\AMJ.png)
+![]('参考文献\AMJ.png')
 
 ## 📋 项目简介
 
@@ -49,7 +49,6 @@ CSR scope and emphasis calculate/
 ├── 计算过程.ipynb                          # 主计算脚本（Jupyter Notebook）
 ├── final_results.csv                       # 最终计算结果
 ├── 上市公司社会责任评价指标表/
-│   ├── CSRR_EvaluationIndex.csv           # CSR披露数据（CSV格式）
 │   ├── CSRR_EvaluationIndex.xlsx          # CSR披露数据（Excel格式）
 │   ├── CSRR_EvaluationIndex[DES][csv].txt # 数据字段说明
 │   └── 版权声明.pdf
@@ -161,4 +160,5 @@ pip install pandas numpy networkx openpyxl
 ## 📝 参考文献
 
 本项目基于学术研究论文的方法论实现，具体参考文献请参见 `参考文献/` 目录。
+
 
